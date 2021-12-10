@@ -1,0 +1,30 @@
+.logo{
+
+    color:black;
+    font-family: Forte;
+    src: url(forte.ttf);
+    font-style: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.nav1{
+    background: #ffb300;
+}
+
+.letras{
+    color:black;
+    font-size: 14pt;
+    font-family: Forte;
+    src: url(forte.ttf);
+    font-style: bold;
+    width: 100%;
+    
+}
+
+.form {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
