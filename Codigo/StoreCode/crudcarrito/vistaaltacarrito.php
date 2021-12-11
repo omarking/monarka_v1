@@ -158,7 +158,7 @@
                                         </div>
                                         <?php
                                         if(isset($_SESSION['CARRITO'])){
-                                        ?>  <button type="submit" class="btn btn-primary btn-lg btn-block" name="btnAccion" value="proceder">Proceder a pagar</button>
+                                        ?>  <button type="submit" class="btn btn-primary btn-lg btn-block" name="btnAccion" value="proceder">Proceder a pagar PayPal</button>
                                         <?php
                                         }else{
                                             //echo "<script>alert('Carrito vacio..');</script>";
@@ -372,7 +372,7 @@
                                         los productos se enviaran a este correo
                                     </small>-->                        
                                 <button type="submit" class="btn btn-primary btn-lg btn-block" name="btnAccion" value="proceder">
-                                Proceder a pagar 
+                                Proceder a pagar por Paypal 
                                 </button>
                                 </div>
                             </form>     
